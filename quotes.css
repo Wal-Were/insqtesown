@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the background color of links on hover */
+.nav li a:hover {
+    background-color: #111;
+}
+
+/* Add a different background color to each page */
+.index {
+    background-color: lightblue;
+}
+
+.quote2 {
+    background-color: lightgreen;
+}
+
+.quote3 {
+    background-color: lightpink;
+}
+
+.quote4 {
+    background-color: lightyellow;
+}
+
+.quote5 {
+    background-color: lightgrey;
+}
+
+.quote {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Subtract the height of the navigation menu */
+}
+
+.quote p {
+    text-align: center;
+    font-size: 50px; /* Increase the font size */
+}
